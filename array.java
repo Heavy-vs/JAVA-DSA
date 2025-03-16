@@ -1,5 +1,7 @@
 package DSA;
 
+import java.util.Scanner;
+
 public class array {
     public static void main(String[] args) {
         // for(int i = 0;i<4;i++){
@@ -28,7 +30,36 @@ public class array {
         //     System.out.println(i);
         //     }
         // }
-        // 
+        // Sloving how to count no of digit 
+        // Scanner sc =new Scanner(System.in);
+        // int n = sc.nextInt();
+        // int x = 0;
+        // if (n==0){
+        //     x++;
+        //     }
+        //     for(;n!=0; ){
+        //         n=n/10;    
+        //         x++;
+        //     }
+        //     System.out.println(x);
+        // sum of given number 
+        // print sum of digits of a given number 
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        int y =0;
+        int z = 0;
+        if (x==0) {
+            System.out.println(x);
+        }
+        else {
+            for(;x!=0;){
+                y=x%10;
+                 z= z+y;
+                 x =x/10;
+
+            }
+        }
+        System.out.println(z);
     }
 
 }
