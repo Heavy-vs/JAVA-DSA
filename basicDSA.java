@@ -2,7 +2,7 @@ package DSA;
 
 import java.util.Scanner;
 
-public class array {
+public class basicDSA {
     public static void main(String[] args) {
         // for(int i = 0;i<4;i++){
         //     System.out.println("vaibhav");
@@ -61,8 +61,8 @@ public class array {
         // }
         // System.out.println(z);
         //making the digit reverse 
-        Scanner sc = new Scanner(System.in);
-        int x = sc.nextInt();
+        // Scanner sc = new Scanner(System.in);
+        // int x = sc.nextInt();
         // int y=1;
         // int z = 1;
         // if (x==0) {
@@ -78,13 +78,74 @@ public class array {
         // }
         // System.out.println(z);
         // FActorial of a number 
-        int y=1;
-        for(int i =1;i<=x; i++ ){
-            y=y*i;
-        }
-        System.out.println(y);
+        // Scanner sc = new Scanner(System.in);
+        // int x = sc.nextInt()
+        // int y=1;
+        // for(int i =1;i<=x; i++ ){
+        //     y=y*i;
+        // }
+        // System.out.println(y);
+                                                                          //star printing 
+        
+        // *****
+        // *****
+        // *****
+    // for(int i = 1; i<=3 ;i++){
+    //     for(int j= 1; j<=5; j++){
+    //     System.out.print("*");
+    //     }
+    //     System.out.println();
+    // }   
     
+    // 12345
+    // 12345
+    // 12345
+    // for(int i = 1;i<=3;i++){
+    //     for(int j =1; j<=5;j++){
+    //         System.out.print(j);
+    //     }
+    //     System.out.println();
+    // }    
+    
+    // *
+    // **
+    // *** 
+    // ****
+        // for(int i= 1 ; i<=4; i++){
+        //     for(int j=1; j<=i;j++){
+        //         System.out.print("*");
+        //     }
+        // System.out.println();
+        // }
+
+    // 1
+    // AB 
+    // 123
+    // ABCD 
+    // 12345     
+        // for(int i = 1; i<=5;i++){
+        //     for(int j =1;j<=i;j++){
+        //         if(i%2==0){
+        //             System.out.print((char)(j+64));
+        //         }
+        //         else{
+        //             System.out.print(j);
+        //         }
+        //     }
+        //     System.out.println();
+        // }
+
+        // **** 
+        // *** 
+        // ** 
+        // * 
+        for(int i=1;i<=4;i++){
+            for(int j=1;j<=5-i;j++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        }
+
     }
-
-
-}
