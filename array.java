@@ -44,22 +44,47 @@ public class array {
         //     System.out.println(x);
         // sum of given number 
         // print sum of digits of a given number 
+        // Scanner sc = new Scanner(System.in);
+        // int x = sc.nextInt();
+        // int y =0;
+        // int z = 0;
+        // if (x==0) {
+        //     System.out.println(x);
+        // }
+        // else {
+        //     for(;x!=0;){
+        //         y=x%10;
+        //          z= z+y;
+        //          x =x/10;
+
+        //     }
+        // }
+        // System.out.println(z);
+        //making the digit reverse 
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
-        int y =0;
-        int z = 0;
-        if (x==0) {
-            System.out.println(x);
+        // int y=1;
+        // int z = 1;
+        // if (x==0) {
+        //     System.out.println(x);
+        // }
+        // else{
+        //     for(;x!=0;){
+        //         y=x%10;
+        //         z=y*10;
+        //         z=z+y;
+        //         x=x/10;
+        //     }
+        // }
+        // System.out.println(z);
+        // FActorial of a number 
+        int y=1;
+        for(int i =1;i<=x; i++ ){
+            y=y*i;
         }
-        else {
-            for(;x!=0;){
-                y=x%10;
-                 z= z+y;
-                 x =x/10;
-
-            }
-        }
-        System.out.println(z);
+        System.out.println(y);
+    
     }
+
 
 }
