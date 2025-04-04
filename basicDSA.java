@@ -170,16 +170,18 @@ public class basicDSA {
         //     * *
         //    *   *
         //   *     *
-        for(int i = 1; i<=4; i++ ){
-        for(float j =1; j<= i-4;j++){
-            // if (j/2==  ){
+    //     for(int i = 1; i<=4; i++ ){
+    //     for(float j =1; j<= i-4;j++){
+    //         // if (j/2==  ){
                 
-                System.out.print("*");
+    //             System.out.print("*");
                 
+    //         }
             
-        }
-        System.out.println();
-    }
+
+    //     }
+    //     System.out.println();
+    // }
         }
 
     }
